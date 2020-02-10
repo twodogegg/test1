@@ -1,0 +1,10 @@
+sudo: false
+language: go
+git:
+    depth: 1
+install: go get -v github.com/gohugoio/hugo
+script: hugo
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # 在Travis CI 后台设置私密的 Gitbub Token 配置项
