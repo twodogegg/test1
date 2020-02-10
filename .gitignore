@@ -2,4 +2,5 @@ node_modules
 public
 resources
 videos
+nohup.out
 .env
