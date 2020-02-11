@@ -65,7 +65,6 @@ git submodule add https://github.com/reuixiy/hugo-theme-meme.git themes/meme
 
 博客采用的是自动化部署方式部署在 [netlify](https://app.netlify.com/)，可以参考这个项目 [reuixiy/io-oi.me](https://github.com/reuixiy/io-oi.me)
 
-
 1. 参考上诉项目对项目进行修改
 
 2. `netlify.toml` 改成如下
@@ -79,7 +78,6 @@ git submodule add https://github.com/reuixiy/hugo-theme-meme.git themes/meme
   HUGO_VERSION = "0.64.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
-
 ```
 
 3. `config.toml` 启用版本管理
@@ -98,7 +96,7 @@ enableGitInfo = true
 ## Netlify 配置自定义域名
 
 1. 点击下方按钮添加自定义域名，域名状态应该为未解析状态
-![hugo-meme-blog-1.png](/images/hugo-meme-blog-1.png)
+   ![hugo-meme-blog-1.png](/images/hugo-meme-blog-1.png)
 
 2. 域名解析
 
@@ -111,9 +109,6 @@ enableGitInfo = true
 `heuristic-lichterman-5f458f.netlify.com`
 
 ![hugo-meme-blog-2.png](/images/hugo-meme-blog-2.png)
-
-
-
 
 ## 参考资料
 
