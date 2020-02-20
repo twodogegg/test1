@@ -2,7 +2,6 @@
 title= "WebStorm 按 ESLint 格式化代码"
 date=2020-02-19T22:19:05+08:00
 description="介绍 在 WebStorm 中ESLint 的格式化，并且兼容 WebStorm 的默认格式"
-draft=true
 +++
 
 ## 介绍
