@@ -85,7 +85,6 @@ jQuery.ajax = function (url, {
 
 指定参数的默认值，就避免了在函数体内部再写 `var foo = config.foo || 'default foo';` 这样的语句。
 
-
 ### (5) 遍历 Map 结构
 
 ```
@@ -106,3 +105,68 @@ for (let [key, value] of map) {
 const { SourceMapConsumer, SourceNode } = require("source-map");
 ```
 
+## 3. 字符串的扩展
+
+使用字符串模板
+
+```js
+let s = 'string'
+let s2 = `string2 ${s}` // string2 string
+```
+
+
+
+
+
+## 4. 字符串的新增方法
+
+### (1)实例方法：includes(), startsWith(), endsWith()
+
+    - includes() : 返回布尔值，表示是否找到了参数字符串。
+
+    - startsWith():返回布尔值，表示参数字符串是否在原字符串的头部。
+
+    - endsWith 返回布尔值，表示参数字符串是否在原字符串的尾部。
+
+```js
+let s = 'Hello world!';
+
+s.startsWith('Hello') // true
+s.endsWith('!') // true
+s.includes('o')
+```
+
+
+
+## 5. 正则表达式扩展
+
+先留着
+
+
+
+## 6. 数值的扩展
+
+### (1) Number.parseInt(), Number.parseFloat()
+
+ES6 将全局方法`parseInt()`和`parseFloat()`，移植到`Number`对象上面，行为完全保持不变。
+
+
+
+```js
+// ES5的写法
+parseInt('12.34') // 12
+parseFloat('123.45#') // 123.45
+
+// ES6的写法
+Number.parseInt('12.34') // 12
+Number.parseFloat('123.45#') // 123.45
+```
+
+## Number.isInteger()
+
+`Number.isInteger()`用来判断一个数值是否为整数。
+
+```javascript
+Number.isInteger(25) // true
+Number.isInteger(25.1) // false
+```
