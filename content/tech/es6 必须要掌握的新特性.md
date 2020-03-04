@@ -170,3 +170,61 @@ Number.parseFloat('123.45#') // 123.45
 Number.isInteger(25) // true
 Number.isInteger(25.1) // false
 ```
+
+### (2). Number.isInteger() 
+
+
+### (3). BigInt 数据类型
+
+## 7. 函数的扩展
+
+### (1). 函数参数的默认值 
+
+### (2). 箭头函数
+
+### (3). 尾调用优化
+
+### (4). catch 命令的参数省略
+
+## 8. 数组的扩展
+
+### (1). 扩展运算符
+
+### (2). Array.from()
+
+### (3). Array.of()
+
+### (4). 数组实例的 find() 和 findIndex() 
+
+### (5). 数组实例的 entries()，keys() 和 values() 
+
+### (6). 数组实例的 includes()
+
+
+## 9. 对象的扩展
+
+### (1). 属性的简洁表示法
+
+### (2). 属性名表达式
+
+## 10.对象的新增方法
+
+
+### (1). Object.assign()
+
+### (2). Object.keys()，Object.values()，Object.entries()
+
+### (3). Object.fromEntries()
+
+## 11. Symbol
+
+## 12. Set 和 Map 数据结构
+
+## 13. Proxy
+
+## 14. Reflect
+
+## 15. Promise 对象
+
+## 16. Iterator 和 for...of 循环
+
