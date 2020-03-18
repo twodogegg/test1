@@ -1,7 +1,6 @@
 ---
 title: "浅谈REST API 设计"
 date: 2020-03-18T14:14:15+08:00
-draft: true
 slug: "talk-rest-api-design"
 tags:
   - rest-api
